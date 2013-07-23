@@ -18,7 +18,7 @@
 		"customer":{
 			"description":"The platform's customer.",
 			"type":"string",
-			"minLength":3,
+			"minLength":1,
 			"maxLength":96
 		}
 	},

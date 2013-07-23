@@ -325,6 +325,7 @@ Example request/response:
 	{
 		"customer"          : "CompanyA",
 		"account_identifier": "123456",
+		"campaign"          : "1234",
 		"recipient"         : {
 			"name" : "John Doe",
 			"email": "john.doe@example.com"
@@ -347,6 +348,7 @@ Example request/response:
 		"order"  : {
 			"order_id"          : "123-12345678-12",
 			"account_identifier": "12345678",
+			"campaign"          : "1234",
 			"sku"               : "TNGO-E-V-STD",
 			"amount"            : 1000,
 			"reward_message"    : "Thank you for participating in the XYZ survey.",
@@ -385,6 +387,7 @@ Example request/response:
 		"order"  : {
 			"order_id"          : "123-12345678-12",
 			"account_identifier": "12345678",
+			"campaign"          : "1234",
 			"sku"               : "TNGO-E-V-STD",
 			"amount"            : 1000,
 			"reward_message"    : "Thank you for participating in the XYZ survey.",
@@ -431,6 +434,7 @@ Example request/response:
 			{
 				"order_id"          : "123-12345678-00",
 				"account_identifier": "12345678",
+				"campaign"          : "1234",
 				"sku"               : "TNGO-E-V-STD",
 				"amount"            : 1000,
 				"reward_message"    : "Thank you for participating in the ABC survey.",
@@ -444,6 +448,7 @@ Example request/response:
 			{
 				"order_id"          : "123-12345678-12",
 				"account_identifier": "12345678",
+				"campaign"          : "1234",
 				"sku"               : "TNGO-E-V-STD",
 				"amount"            : 1000,
 				"reward_message"    : "Thank you for participating in the XYZ survey.",

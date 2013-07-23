@@ -6,7 +6,7 @@
 		"customer":{
 			"description":"The platform's customer.",
 			"type":"string",
-			"minLength":3,
+			"minLength":1,
 			"maxLength":96
 		},
 		"account_identifier":{
@@ -16,6 +16,13 @@
 			"maxLength":96,
 			"pattern":"^[\\+\\w-]{5,96}$"
 		},
+        "campaign":{
+            "description":"The campaign to use for reward emails.",
+            "type":"string",
+            "minLength":0,
+            "maxLength":96,
+            "optional":true
+        },
 		"recipient":{
 			"description":"The information for the person who is to receive this reward.",
 			"type":"object",
